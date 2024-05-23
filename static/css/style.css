@@ -1,0 +1,70 @@
+html {
+    overflow-x:hidden ! important;
+}
+
+body {
+    background-color:black ! important;
+}
+
+.principal{
+    text-align: center;
+    margin-top: 5%;
+    color: aliceblue;
+}
+
+.hblanc, p + p{
+    color:aliceblue;
+    margin-left: 1%;
+}
+
+a:link {
+    color: aliceblue;
+}
+
+body > h1, p {
+    margin-left: 1% ! important;
+    color: aliceblue;
+}
+
+.lvg {
+    width: 400px;
+    height: auto;
+}
+
+#cindex {
+    position:absolute ! important;
+    z-index: -1 ! important;
+    top: 0 ! important;
+    background-size: cover ! important;
+    margin-top: 4% ! important;
+    overflow-y: hidden;
+    height:91% ! important;
+}
+
+.imgfondo{
+    width: 100% ! important;
+    height: auto ! important;
+    overflow-y:hidden ! important;
+    opacity: 50% ! important;
+    z-index: -10 ! important;
+    position: fixed ! important;
+}
+
+.d-block{
+    width: 100% ! important;
+    height: 100% ! important;
+    overflow-y:hidden ! important;
+    opacity: 30%;
+    z-index: -10;
+}
+
+.navbar navbar-expand-sm bg-dark navbar-dark{
+    position: fixed ! important;
+    overflow: hidden ! important;
+    top: 0 ! important;
+}
+
+.navbar a:hover{
+    color: black ! important;
+    background-color:aliceblue ! important;
+}
